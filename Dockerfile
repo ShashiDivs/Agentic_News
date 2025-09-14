@@ -8,7 +8,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project files
-COPY news_agent /app/news_agent
+COPY news_agentic /app/news_agentic
 COPY scripts /app/scripts
 
 # Expose Streamlit port

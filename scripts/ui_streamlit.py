@@ -1,4 +1,3 @@
-# scripts/ui_streamlit.py
 import time
 import streamlit as st
 
